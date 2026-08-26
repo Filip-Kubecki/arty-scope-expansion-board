@@ -696,7 +696,7 @@
         "uuid": "210c1069-d5bc-46d7-828b-b2a41921709f"
       }
     ],
-    "used_designators": "C1-8,J1-4,JP1,JB1,JD1,R_Pack_PMOD_Side_B1,#PWR1-39,RNA3-4,JA1-3,U1-3,RN1-2,JC1,RNAA2,R_Pack_ADC_Side_B1,R_Pack_ADC_Side_A1,R_Pack_PMOD_Side_A1",
+    "used_designators": "R1-2,RNAA2,JC1,RN1-2,R_Pack_PMOD_Side_A1,R_Pack_ADC_Side_A1,R_Pack_ADC_Side_B1,C1-8,J1-5,JB1,JP1,JD1,R_Pack_PMOD_Side_B1,#PWR1-40,RNA3-4,JA1-3,D1,U1-3",
     "variants": []
   },
   "sheets": [
