@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -212,6 +212,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.35,
         0.4,
         0.6,
         0.8
@@ -697,7 +698,7 @@
         "uuid": "210c1069-d5bc-46d7-828b-b2a41921709f"
       }
     ],
-    "used_designators": "R_Pack_PMOD_Side_B1,JD1,JB1,JP1-3,J1-5,C1-28,D1-4,U1-7,R1-28,#PWR1-60,RNA3-4,JA1-3,JC1,RNAA2,R_Pack_ADC_Side_B1,R_Pack_ADC_Side_A1,R_Pack_PMOD_Side_A1,RN1-2",
+    "used_designators": "JD1,R_Pack_PMOD_Side_B1,JP1-3,JB1,R1-28,RNAA2,JC1,C1-37,J1-6,JA1-3,RNA3-4,#PWR1-73,D1-4,U1-11,RN1-2,R_Pack_PMOD_Side_A1,R_Pack_ADC_Side_A1,R_Pack_ADC_Side_B1",
     "variants": []
   },
   "sheets": [
