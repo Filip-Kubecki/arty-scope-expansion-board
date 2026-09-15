@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -158,10 +158,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -513,7 +513,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -531,7 +531,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.127,
         "name": "ADC_DATA_A",
         "pcb_color": "rgb(255, 146, 21)",
         "priority": 1,
@@ -540,7 +540,7 @@
         "tuning_profile": "DATA_PAR"
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.127,
         "name": "ADC_DATA_B",
         "pcb_color": "rgb(44, 255, 92)",
         "priority": 0,
@@ -694,7 +694,7 @@
       },
       {
         "filename": "digital.kicad_sch",
-        "name": "DIGITAL",
+        "name": "Channels",
         "uuid": "210c1069-d5bc-46d7-828b-b2a41921709f"
       }
     ],
@@ -708,7 +708,7 @@
     ],
     [
       "210c1069-d5bc-46d7-828b-b2a41921709f",
-      "DIGITAL"
+      "Channels"
     ]
   ],
   "text_variables": {},
