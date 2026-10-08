@@ -47,3 +47,4 @@ output/
 # --- Renders and exports ---
 *.png.tmp
 render/
+.history/
