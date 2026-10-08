@@ -1,0 +1,49 @@
+# --- KiCad: backups and autosave ---
+*-backups/
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+_autosave-*
+*-save.kicad_pcb
+*-save.kicad_sch
+\#auto_saved_files#
+*.tmp
+
+# --- KiCad: caches and locks ---
+fp-info-cache
+*.lck
+~*.lck
+*.cache.lib
+*-cache.lib
+*-cache.dcm
+
+# --- KiCad: user-local settings (window layout, visible layers etc.) ---
+*.kicad_prl
+
+# --- KiCad: legacy leftovers (KiCad 5 and older) ---
+*-rescue.lib
+*-rescue.dcm
+*.net
+*.sch-bak
+*.pro.user
+
+# --- Generated outputs (attach to GitHub Releases instead) ---
+fab/
+gerber/
+gerbers/
+production/
+output/
+*.zip
+*.gbr
+*.drl
+*.gbrjob
+*-pos.csv
+*-pos.pos
+*.step.bak
+*.wrl.bak
+
+# --- Renders and exports ---
+*.png.tmp
+render/
