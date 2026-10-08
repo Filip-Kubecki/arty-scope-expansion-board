@@ -5,8 +5,7 @@
 KiCad design of an analog shield for the Digilent Arty A7 100T. The board plugs into the Pmod connectors and, together with the FPGA design, forms a two-channel digital oscilloscope.
 
 <p align="center">
-  <img src="docs/images/pcb-top.png" width="48%" alt="Board top">
-  <img src="docs/images/pcb-bottom.png" width="48%" alt="Board bottom">
+  <img src="docs/images/pcb_top.png" width="900" alt="3D render of the board">
 </p>
 
 ## Hardware
