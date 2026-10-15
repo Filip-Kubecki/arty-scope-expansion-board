@@ -19,6 +19,7 @@ KiCad design of an analog shield for the Digilent Arty A7 100T. The board plugs 
 ## Related repositories
 
 - FPGA design: [arty-scope-hdl](https://github.com/Filip-Kubecki/arty-scope-hdl)
+- App: [OscilloscopeApp](https://github.com/Filip-Kubecki/OscilloscopeApp)
 
 ## Repository structure
 
