@@ -3003,16 +3003,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 156.21) (xy 304.8 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "360fb6da-f707-4383-953c-ef943bc30e7e")
-	)
-	(wire
-		(pts
 			(xy 299.72 78.74) (xy 302.26 78.74)
 		)
 		(stroke
@@ -3773,16 +3763,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 156.21) (xy 54.61 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83aa370a-bff3-4658-a773-3b7b7e9d828a")
-	)
-	(wire
-		(pts
 			(xy 304.8 227.33) (xy 304.8 232.41)
 		)
 		(stroke
@@ -3950,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "9252c89d-ad3c-4724-9756-24f187d4ffd3")
-	)
-	(wire
-		(pts
-			(xy 54.61 171.45) (xy 54.61 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927e5e57-1e25-4811-8ea5-a7a32f540a52")
 	)
 	(wire
 		(pts
@@ -4500,16 +4470,6 @@
 			(type default)
 		)
 		(uuid "bb63390e-972a-44a6-a991-5054639f6550")
-	)
-	(wire
-		(pts
-			(xy 304.8 171.45) (xy 304.8 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba8951c-c168-4dd0-a331-955d9d3840af")
 	)
 	(wire
 		(pts
@@ -8419,84 +8379,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "258c39ec-b7d9-4082-897d-04e1370b11d6")
-		(property "Reference" "#PWR051"
-			(at 54.61 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29703e8d-652e-4ccf-9970-44c526ae99ef")
-		)
-		(instances
-			(project "arty-scope-expansion-board"
-				(path "/210c1069-d5bc-46d7-828b-b2a41921709f"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 74.93 92.71 0)
 		(mirror y)
 		(unit 1)
@@ -10720,88 +10602,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 304.8 167.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "603b52ef-1601-4fcb-91aa-7ebeef2526c1")
-		(property "Reference" "R47"
-			(at 307.34 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "55.6"
-			(at 307.34 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 306.578 167.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 304.8 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c69633ad-025e-4ee7-8b6c-4ea1e2e185e9")
-		)
-		(pin "1"
-			(uuid "a764b250-59e5-40e2-89b8-e2a26a08b20e")
-		)
-		(instances
-			(project "arty-scope-expansion-board"
-				(path "/210c1069-d5bc-46d7-828b-b2a41921709f"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 316.23 78.74 270)
 		(mirror x)
 		(unit 1)
@@ -11117,84 +10917,6 @@
 			(project "arty-scope-expansion-board"
 				(path "/210c1069-d5bc-46d7-828b-b2a41921709f"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 304.8 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a5628f4-9552-48e7-a67d-f0373b588d8f")
-		(property "Reference" "#PWR086"
-			(at 304.8 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 304.8 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 304.8 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3850a41-f34b-4148-a41c-b1ac07f216d3")
-		)
-		(instances
-			(project "arty-scope-expansion-board"
-				(path "/210c1069-d5bc-46d7-828b-b2a41921709f"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -12636,88 +12358,6 @@
 			(project "arty-scope-expansion-board"
 				(path "/210c1069-d5bc-46d7-828b-b2a41921709f"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 167.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a507e970-1464-4157-9666-3d898d31f372")
-		(property "Reference" "R9"
-			(at 57.15 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "55.6"
-			(at 57.15 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 56.388 167.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "db7e18ac-9df9-4abe-88a4-6a1e31250aa4")
-		)
-		(pin "1"
-			(uuid "b07a3a29-e32c-4fd9-b833-218534cbfd02")
-		)
-		(instances
-			(project "arty-scope-expansion-board"
-				(path "/210c1069-d5bc-46d7-828b-b2a41921709f"
-					(reference "R9")
 					(unit 1)
 				)
 			)

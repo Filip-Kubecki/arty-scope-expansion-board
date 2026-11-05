@@ -9,3 +9,4 @@
 ## It would be nice to change
 
 * make input attenuators switchable or add bypass - probably with relays
+* change clk for adc from pin comming from fpga to differential clock driving adc and fpga pin separately
